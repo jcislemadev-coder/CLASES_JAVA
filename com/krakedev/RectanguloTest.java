@@ -33,7 +33,7 @@ public class RectanguloTest {
 
 		System.out.println("El resultado del segundo rectangulo es: " + resultador2);
 		System.out.println("El perimetro es: " + perimetro2);
-
+		
 	}
 
 }
