@@ -5,36 +5,54 @@ public class Vehiculo {
 	private String modelo;
 	private String anio;
 	private double valor;
-	
-	public String getMarca () {
-		return marca;
+
+	public Vehiculo() {
 	}
 	
-	public String getModelo() {
-		return modelo;
-	}
-	
-	public String getAnio() {
-		return anio;
-	}
-	
-	public double getValor() {
-		return valor;
-	}
-	
-	public void setMarca( String marca) {
+
+	public Vehiculo(String marca) {
 		this.marca = marca;
 	}
 	
-	public void setModelo (String modelo) {
+	public Vehiculo(String marca, String modelo, String anio, double valor) {
+		this.marca = marca;
+		this.modelo = modelo;
+		this.anio = anio;
+		this.valor = valor;
+	}
+	
+	
+	
+	
+	public String getMarca() {
+		return marca;
+	}
+
+	public String getModelo() {
+		return modelo;
+	}
+
+	public String getAnio() {
+		return anio;
+	}
+
+	public double getValor() {
+		return valor;
+	}
+
+	public void setMarca(String marca) {
+		this.marca = marca;
+	}
+
+	public void setModelo(String modelo) {
 		this.modelo = modelo;
 	}
-	
-	public void setAnio (String anio) {
+
+	public void setAnio(String anio) {
 		this.anio = anio;
 	}
-	
-	public void setValor (double valor) {
+
+	public void setValor(double valor) {
 		this.valor = valor;
 	}
 }

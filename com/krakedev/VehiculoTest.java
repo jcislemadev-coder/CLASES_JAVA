@@ -40,6 +40,12 @@ public class VehiculoTest {
 		 System.out.println("Modelo: "+ v2.getAnio());
 		 
 		 
+		 Vehiculo v3 = new Vehiculo ("Kiaa");
+		 System.out.println("La marca del vehiculo del mc: "+ v3.getMarca());
+		 Vehiculo v4 = new Vehiculo ("El mas rapido", "Potente", "2027", 400);
+		 System.out.println("Marca: "+ v4.getMarca());
+		 System.out.println("Modelo: "+ v4.getModelo());
+		 System.out.println("Precio: "+ v4.getValor());
 
 	}
 

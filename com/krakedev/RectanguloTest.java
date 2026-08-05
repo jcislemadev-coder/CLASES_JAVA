@@ -5,10 +5,7 @@ public class RectanguloTest {
 	public static void main(String[] args) {
 		Rectangulo r1;
 
-		r1 = new Rectangulo();
-
-		r1.setAltura(5);
-		r1.setBase(4);
+		r1 = new Rectangulo(5,4);
 
 		int resultadoarea;
 
@@ -20,10 +17,7 @@ public class RectanguloTest {
 		resultadoperimetro = r1.calcularPerimetro();
 		System.out.println("El perimetro es: " + resultadoperimetro);
 
-		Rectangulo r2 = new Rectangulo();
-
-		r2.setAltura(8);
-		r2.setBase(2);
+		Rectangulo r2 = new Rectangulo(8,2);
 
 		int resultador2;
 		double perimetro2;

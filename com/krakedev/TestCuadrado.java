@@ -3,9 +3,7 @@ package com.krakedev;
 public class TestCuadrado {
 
 	public static void main(String[] args) {
-		Cuadrado c1 = new Cuadrado();
-
-		c1.setLado(4);
+		Cuadrado c1 = new Cuadrado(4);
 		double area = c1.area();
 		double perimetro = c1.perimetro();
 		System.out.println("********PRIMER CUADRADO***********");
@@ -13,18 +11,14 @@ public class TestCuadrado {
 		System.out.println("El perimetro del cuadrdo es: " + perimetro);
 
 		System.out.println("********SEGUNDO CUADRADO***********");
-		Cuadrado c2 = new Cuadrado();
-
-		c2.setLado(3);
+		Cuadrado c2 = new Cuadrado(3);
 		double area2 = c2.area();
 		double perimetro2 = c2.perimetro();
 
 		System.out.println("El area del cuadrado es: " + area2);
 		System.out.println("El perimetro del cuadrado es: " + perimetro2);
 
-		Cuadrado c3 = new Cuadrado();
-
-		c3.setLado(3);
+		Cuadrado c3 = new Cuadrado(3);
 
 		double area3 = c3.area();
 		double perimetro3 = c3.perimetro();

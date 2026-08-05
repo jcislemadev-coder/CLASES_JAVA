@@ -2,6 +2,10 @@ package com.krakedev;
 
 public class Mensajeria {
 	
+	public Mensajeria() {
+		System.out.println("Este es el constructor vacio");
+	}
+	
 	public void saludar () {
 		
 		System.out.println("Hola como están");

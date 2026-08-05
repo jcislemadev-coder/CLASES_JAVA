@@ -3,7 +3,14 @@ package com.krakedev;
 public class Rectangulo {
 	private int base;
 	private int altura;
-
+	
+	
+	public Rectangulo (int base, int altura) {
+	this.base = base;
+	this.altura = altura;
+	System.out.println("El constructor ha sido creado con datos");
+	}
+	
 	public int getBase () {
 		return base;
 	}
