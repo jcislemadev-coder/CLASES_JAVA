@@ -33,6 +33,13 @@ public class Calculadora {
 		return resultado;
 	}
 	
+	public double descuento (double a, double b) {
+		double resultado;
+		resultado = a - (a*(b/100));
+		return resultado;
+	}
+	
+	
 	public void mostrarResultado() {
 		System.out.println("!!!!!Ahorita no joven, Salí al almuerzo. Regreso en 15 minutos!!!s");
 	}

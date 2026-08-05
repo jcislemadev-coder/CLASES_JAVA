@@ -5,7 +5,7 @@ public class TestCuadrado {
 	public static void main(String[] args) {
 		Cuadrado c1 = new Cuadrado();
 
-		c1.lado = 4;
+		c1.setLado(4);
 		double area = c1.area();
 		double perimetro = c1.perimetro();
 		System.out.println("********PRIMER CUADRADO***********");
@@ -15,7 +15,7 @@ public class TestCuadrado {
 		System.out.println("********SEGUNDO CUADRADO***********");
 		Cuadrado c2 = new Cuadrado();
 
-		c2.lado = 3;
+		c2.setLado(3);
 		double area2 = c2.area();
 		double perimetro2 = c2.perimetro();
 
@@ -24,7 +24,7 @@ public class TestCuadrado {
 
 		Cuadrado c3 = new Cuadrado();
 
-		c3.lado = 9;
+		c3.setLado(3);
 
 		double area3 = c3.area();
 		double perimetro3 = c3.perimetro();

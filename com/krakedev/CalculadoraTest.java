@@ -27,6 +27,12 @@ public class CalculadoraTest {
 		
 		c1.mostrarResultado();
 		
+		
+		Calculadora c2 = new Calculadora();
+		
+		double descuento = c2.descuento(100, 5);
+		System.out.println("El descuento es de: "+ descuento);
+		
 	}
 
 }
